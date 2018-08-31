@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+BIDRandom.h
 //  QuartzFun
 //
 //  Created by Alex Chekodanov on 31.08.2018.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
-- (IBAction)changeColor:(UISegmentedControl *)sender;
+@interface UIColor (BIDRandom)
++ (UIColor *)randomColor;
 @end
-

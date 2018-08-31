@@ -11,10 +11,11 @@
 		85956763213932070065ADF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85956762213932070065ADF2 /* ViewController.m */; };
 		85956766213932070065ADF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85956764213932070065ADF2 /* Main.storyboard */; };
 		85956768213932220065ADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85956767213932220065ADF2 /* Assets.xcassets */; };
-		8595676B213932220065ADF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85956769213932220065ADF2 /* LaunchScreen.storyboard */; };
 		8595676E213932220065ADF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8595676D213932220065ADF2 /* main.m */; };
 		85956778213932220065ADF2 /* QuartzFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85956777213932220065ADF2 /* QuartzFunTests.m */; };
 		85956783213932220065ADF2 /* QuartzFunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85956782213932220065ADF2 /* QuartzFunUITests.m */; };
+		85956792213932890065ADF2 /* BIDQuartzFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85956791213932890065ADF2 /* BIDQuartzFunView.m */; };
+		85956796213933B00065ADF2 /* UIColor+BIDRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85956795213933B00065ADF2 /* UIColor+BIDRandom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 		85956762213932070065ADF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85956765213932070065ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85956767213932220065ADF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8595676A213932220065ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8595676C213932220065ADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8595676D213932220065ADF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85956773213932220065ADF2 /* QuartzFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +51,11 @@
 		8595677E213932220065ADF2 /* QuartzFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85956782213932220065ADF2 /* QuartzFunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzFunUITests.m; sourceTree = "<group>"; };
 		85956784213932220065ADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85956790213932890065ADF2 /* BIDQuartzFunView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDQuartzFunView.h; sourceTree = "<group>"; };
+		85956791213932890065ADF2 /* BIDQuartzFunView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDQuartzFunView.m; sourceTree = "<group>"; };
+		85956793213933560065ADF2 /* BIDConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDConstants.h; sourceTree = "<group>"; };
+		85956794213933B00065ADF2 /* UIColor+BIDRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+BIDRandom.h"; sourceTree = "<group>"; };
+		85956795213933B00065ADF2 /* UIColor+BIDRandom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BIDRandom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +107,16 @@
 			isa = PBXGroup;
 			children = (
 				8595675E213932070065ADF2 /* AppDelegate.h */,
+				85956790213932890065ADF2 /* BIDQuartzFunView.h */,
+				85956791213932890065ADF2 /* BIDQuartzFunView.m */,
+				85956793213933560065ADF2 /* BIDConstants.h */,
+				85956794213933B00065ADF2 /* UIColor+BIDRandom.h */,
+				85956795213933B00065ADF2 /* UIColor+BIDRandom.m */,
 				8595675F213932070065ADF2 /* AppDelegate.m */,
 				85956761213932070065ADF2 /* ViewController.h */,
 				85956762213932070065ADF2 /* ViewController.m */,
 				85956764213932070065ADF2 /* Main.storyboard */,
 				85956767213932220065ADF2 /* Assets.xcassets */,
-				85956769213932220065ADF2 /* LaunchScreen.storyboard */,
 				8595676C213932220065ADF2 /* Info.plist */,
 				8595676D213932220065ADF2 /* main.m */,
 			);
@@ -235,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8595676B213932220065ADF2 /* LaunchScreen.storyboard in Resources */,
 				85956768213932220065ADF2 /* Assets.xcassets in Resources */,
 				85956766213932070065ADF2 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +273,8 @@
 				85956763213932070065ADF2 /* ViewController.m in Sources */,
 				8595676E213932220065ADF2 /* main.m in Sources */,
 				85956760213932070065ADF2 /* AppDelegate.m in Sources */,
+				85956792213932890065ADF2 /* BIDQuartzFunView.m in Sources */,
+				85956796213933B00065ADF2 /* UIColor+BIDRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +316,6 @@
 				85956765213932070065ADF2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85956769213932220065ADF2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8595676A213932220065ADF2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
